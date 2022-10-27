@@ -30,8 +30,7 @@ public class emberekController {
     }
 
     public void hozzaadClick(ActionEvent actionEvent) {
-
-    emberek.getItems().add(new Ember(nevMezo.getText(),korMezo.getValue()));
-
+    emberek.getItems().add(new Ember(nevMezo.getText(), korMezo.getValue()));
+    nevMezo.setText("");
     }
 }

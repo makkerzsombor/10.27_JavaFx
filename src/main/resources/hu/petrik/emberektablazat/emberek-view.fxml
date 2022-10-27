@@ -17,7 +17,7 @@
       <HBox prefHeight="100.0" prefWidth="200.0">
          <children>
             <TextField fx:id="nevMezo" promptText="Név" />
-            <Spinner />
+            <Spinner fx:id="korMezo" amountToStepBy="1" editable="true" initialValue="1" max="100" min="1" />
             <Button mnemonicParsing="false" onAction="#hozzaadClick" text="Hozzáad" />
          </children>
       </HBox>
